@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://fergarciafer.github.io/prueba-curso"
+baseurl = "https://fergarciafer.github.io/prueba-curso/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"

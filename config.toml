@@ -1,0 +1,59 @@
+## Basic Configuration
+
+baseurl = "https://fergarciafer.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Fernando Garcia"
+title = "Fernando Garcia"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-fergarciafer-github-io-1"
+googleAnalytics = "UA-129900305-1"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Prueba de un curso"
+intro = "Si todo funciona lo haremos con un nuevo Theme"
+description = "Esta es una excelente opcion"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "fergarciafer"
+linkedin = "fernandomartingarcia"
+twitter = "fergarciafer"
+email = "fergarciafer@hotmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Fernando Garcia. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
